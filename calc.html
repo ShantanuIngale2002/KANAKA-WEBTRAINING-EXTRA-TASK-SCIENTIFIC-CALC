@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCIENTIFIC CALCULATOR</title>
+    <link rel="stylesheet" href="css/calc.css">
+</head>
+<body>
+    <div id="calculatorStructure">
+        <!-- UPPER INFORMATION -->
+        <div id="upperInformation">
+            <div id="mainName">
+                <!-- here name of calulator -->
+                SCIENTIFIC CALCULATOR
+            </div>
+            <div id="companyName">
+                <!-- here name of company -->
+                KANAKA CONSULTANCY
+            </div>
+            <div id="creatorName">
+                <!-- Here name of the creator (Shantanu Ingale) -->
+                SHANTANU INGALE
+            </div>
+        </div>
+
+
+
+        <!-- DISPLAY -->
+        <div id="displayAll">
+            DISPLAY
+            <!-- display -->
+        </div>
+
+
+
+        <!-- BUTTON SECTION ALL -->
+        <div id="buttonSectionAll">
+
+            <!-- BUTTON SECTION 01 -->
+            <div id="buttonSection01">
+                <div class="buttonIntegrate" id="shift">
+                    <button type="button" class="allButtons" id="shiftButton">SHIFT</button>
+                    <!-- shift button -->
+                </div>
+                <div class="buttonIntegrate" id="roller">
+                    <button type="button" class="allButtons" id="rollerButton">ROLLER</button>
+                    <!-- roller button -->
+                </div>
+                <div class="buttonIntegrate" id="on">
+                    <button type="button" class="allButtons" id="onButton">ON</button>
+                    <!-- on button -->
+                </div>
+            </div>
+
+
+            <!-- BUTTON SECTION 02 -->
+            <div id="buttonSection02">
+
+                <!-- BUTTON SECTION 02 - 01 : NUMPAD -->
+                <div id="buttonSection0201">
+                    <div class="threeHandle">
+                        <div class="buttonIntegrate IntegerButton" data-value="1" id="one">
+                            <button type="button" class="allButtons numPadButtons" id="oneButton">1</button>
+                            <!-- ONE BUTTON -->
+                        </div>
+                        <div class="buttonIntegrate IntegerButton" data-value="4" id="four">
+                            <button type="button" class="allButtons numPadButtons" id="fourButton">4</button>
+                            <!-- FOUR BUTTON -->
+                        </div>
+                        <div class="buttonIntegrate  IntegerButton" data-value="7" id="seven">
+                            <button type="button" class="allButtons numPadButtons" id="sevenButton">7</button>
+                            <!-- SEVEN BUTTON -->
+                        </div>
+                    </div>
+                    <div class="threeHandle">
+                        <div class="buttonIntegrate  IntegerButton" data-value="2" id="two">
+                            <button type="button" class="allButtons numPadButtons" id="twoButton">2</button>
+                            <!-- TWO BUTTON -->
+                        </div>
+                        <div class="buttonIntegrate  IntegerButton" data-value="5" id="five">
+                            <button type="button" class="allButtons numPadButtons" id="fiveButton">5</button>
+                            <!-- FIVE BUTTON -->
+                        </div>
+                        <div class="buttonIntegrate  IntegerButton" data-value="8" id="eight">
+                            <button type="button" class="allButtons numPadButtons" id="eightButton">8</button>
+                            <!-- EIGHT BUTTON -->
+                        </div>
+                    </div>
+                    <div class="threeHandle">
+                        <div class="buttonIntegrate  IntegerButton" data-value="3" id="three">
+                            <button type="button" class="allButtons numPadButtons" id="threeButton">3</button>
+                            <!-- THREE BUTTON -->
+                        </div>
+                        <div class="buttonIntegrate  IntegerButton" data-value="6" id="six">
+                            <button type="button" class="allButtons numPadButtons" id="sixButton">6</button>
+                            <!-- SIX BUTTON -->
+                        </div>
+                        <div class="buttonIntegrate  IntegerButton" data-value="9" id="nine">
+                            <button type="button" class="allButtons numPadButtons" id="nineButton">9</button>
+                            <!-- NINE BUTTON -->
+                        </div>
+                    </div>
+                    <div class="threeHandle">
+                        <div class="buttonIntegrate" id="zero">
+                            <button type="button" class="allButtons" id="zeroButton">0</button>
+                            <!-- ZERO BUTTON -->
+                        </div>
+                        <div class="buttonIntegrate" id="zerozero">
+                            <button type="button" class="allButtons" id="zerozeroButton">00</button>
+                            <!-- ZERO ZERO BUTTON -->
+                        </div>
+                        <div class="buttonIntegrate" id="point">
+                            <button type="button"  id="pointButton">·</button>
+                            <!-- POINT BUTTON -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="buttonSection0202">
+                    <div class="fourHandleVertical">
+                        <div class="buttonIntegrate" id="del">
+                            <button type="button" class="allButtons" id="delButton">DEL</button>
+                            <!-- DEL BUTTON -->
+                        </div>
+                        <div class="buttonIntegrate" id="ac">
+                            <button type="button" class="allButtons" id="acButton">AC</button>
+                            <!-- ALL CLEAR BUTTON -->
+                        </div>
+                        <div class="buttonIntegrate" id="10x">
+                            <button type="button" class="allButtons" id="TenxButton">10^x</button>
+                            <!-- 10x BUTTON -->
+                        </div>
+                        <div class="buttonIntegrate" id="equals">
+                            <button type="button" class="allButtons" id="equalsButton">=</button>
+                            <!-- EQUALS BUTTON -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+            <!-- BUTTON SECTION 03 -->
+            <div id="buttonSection03">
+                <div class="fourHandleHorizontal03">
+                    <div class="buttonIntegrate" id="add">
+                        <button type="button" class="allButtons operatorButton" data-value="+" id="addButton">+</button>
+                        <!-- PLUS BUTTON -->
+                    </div>
+                    <div class="buttonIntegrate" id="subtract">
+                        <button type="button" class="allButtons operatorButton" data-value="-" id="subtractButton">-</button>
+                        <!-- MINUS BUTTON -->
+                    </div>
+                    <div class="buttonIntegrate" id="multiply">
+                        <button type="button" class="allButtons operatorButton" data-value="*" id="multiplyButton">*</button>
+                        <!-- ASTERICKS BUTTON -->
+                    </div>
+                    <div class="buttonIntegrate" id="divide">
+                        <button type="button" class="allButtons operatorButton" data-value="/" id="divideButton">/</button>
+                        <!-- DIVIDE BUTTON -->
+                    </div>
+                </div>
+
+                <div class="fourHandleHorizontal03">
+                    <div class="buttonIntegrate" id="xSquare">
+                        <button type="button" class="allButtons " id="xSquareButton">x^2 | x^n</button>
+                        <!-- 2 SQUARE / N SQUARE BUTTON -->
+                    </div>
+                    <div class="buttonIntegrate" id="xRoot">
+                        <button type="button" class="allButtons " id="xRootButton">√x | m√x</button>
+                        <!-- 2 ROOT / N ROOT BUTTON -->
+                    </div>
+                    <div class="buttonIntegrate" id="xFactorial">
+                        <button type="button" class="allButtons" id="xFactoButton">x!</button>
+                        <!-- X FACTORIAL / X INVERSE BUTTON -->
+                    </div>
+                    <div class="buttonIntegrate" id="modulo">
+                        <button type="button" class="allButtons operatorButton" data-value="%" id="moduloButton">%</button>
+                        <!-- MODULO BUTTON -->
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- BUTTON SECTION 04 -->
+            <div id="buttonSection04">
+                <div class="fourHandleHorizontal04">
+                    <div class="buttonIntegrate" id="exponential">
+                        <button type="button" class="allButtons " id="exponentialButton">e^x | e^m</button>
+                        <!-- EXPONENTIAL BUTTON -->
+                    </div>
+                    <div class="buttonIntegrate" id="sin">
+                        <button type="button" class="allButtons " id="sinButton">SIN | SIN⁻¹</button>
+                        <!-- SINE BUTTON -->
+                    </div>
+                    <div class="buttonIntegrate" id="cos">
+                        <button type="button" class="allButtons " id="cosButton">COS | COS⁻¹</button>
+                        <!-- COSINE BUTTON -->
+                    </div>
+                    <div class="buttonIntegrate" id="tan">
+                        <button type="button" class="allButtons " id="tanButton">TAN | TAN⁻¹</button>
+                        <!-- TANGENT BUTTON -->
+                    </div>
+                </div>
+
+                <div class="fourHandleHorizontal04">
+                    <div class="buttonIntegrate" id="decimal">
+                        <button type="button" class="allButtons " id="decimalButton">DEC | BIN</button>
+                        <!-- DECIMAL BUTTON -->
+                    </div>
+                    <div class="buttonIntegrate" id="hexaDecimal">
+                        <button type="button" class="allButtons" id="hexaDecimalButton">HEX</button>
+                        <!-- HEXADECIMAL BUTTON -->
+                    </div>
+                    <div class="buttonIntegrate" id="octaDecimal">
+                        <button type="button" class="allButtons" id="octaDecimalButton">OCT</button>
+                        <!-- OCTADECIMAL BUTTON -->
+                    </div>
+                    <div class="buttonIntegrate" id="log">
+                        <button type="button" class="allButtons " id="logButton">LOG | LN</button>
+                        <!-- LOGARITHM BUTTON -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/newCalc.js"></script>
+</body>
+</html>

@@ -1,0 +1,295 @@
+body{
+    /* text-align: center; */
+    background-color: rgb(2, 37, 50);
+}
+#calculatorStructure{
+    border: 5px solid rgb(247, 65, 65);
+    border-radius: 20px;
+    background-color: rgb(42, 45, 46);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 730px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    padding: 3px 3px 3px 3px;
+}
+#upperInformation{
+    padding-left: 1%;
+    background-color: rgb(7, 91, 128);
+    border-radius: 20px;
+    height: 40px;
+}
+#mainName{
+    margin-top: 3px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 15px;
+    border-top: 8px solid rgb(46, 189, 194);
+    border-radius: 30px;
+    position: absolute;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    text-shadow: 2px 3px 4px #ffffff;
+}
+#companyName{
+    background-color: bisque;
+    border-radius: 20px;
+    position: absolute;
+    color: #7c2f49;
+    font-family: "Great Vibes",cursive;
+    font-size: 10px;
+    font-weight: normal; 
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+    right: 2px;
+    padding: 0 4px 0 0;
+    margin: 3px 10px auto auto;
+}
+#creatorName{
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    right:20px;
+    top: 25px;
+    color: blanchedalmond;
+}
+#displayAll{
+    margin:23px 3px 23px 3px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(0, 0, 0);
+    border: 4px solid rgb(40, 135, 119);
+    border-radius: 15px;
+    color: rgb(168, 252, 237);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#buttonSectionAll{
+    position: relative;
+    height: 550px;
+    border: 4px solid rgb(255, 255, 255);
+    margin: 5px;
+}
+.allButtons{
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    margin: 3px;
+    padding: 15px;
+    font-weight: 630;
+}
+
+#buttonSection01{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 3px solid black; */
+    padding: 0px 4px;
+}
+#onButton{
+    padding: 15px 25px;
+}
+
+#buttonSection02{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border-top: 5px solid rgb(128, 245, 235);
+    border-bottom: 5px solid rgb(128, 245, 235);
+    border-radius: 5px 5px 0px 0px;
+}
+#buttonSection0201{
+    display: inline-flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    align-items: center;
+    /* border: 3px solid blue; */
+}
+#buttonSection0202{
+    /* border: 3px solid green; */
+    padding: 1px 0px 1px 6px;
+}
+#four, #five, #six, #zerozero{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+#zeroButton{
+    margin-top: 0px;
+    padding: 15px 19px 15px 19px;
+}
+#pointButton{
+    justify-content: top;
+    text-align: top;
+    padding-top:-2px;
+    font-size: 37px;
+    padding: 2px 20px;
+}
+#acButton{
+    padding: 15px 18px 15px;
+}
+#TenxButton{
+    padding: 15px 12px 15px;
+}
+#equalsButton{
+    font-size: 30px;
+    padding:0px 16px 10px;
+}
+
+
+
+#buttonSection03{
+    /* border:3px solid greenyellow; */
+    /* border-top: 3px solid red; */
+    /* border-bottom: 3px solid rgb(128, 213, 252); */
+    /* border-radius: 5px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0px 5px 0px 5px;
+}
+.fourHandleHorizontal03{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#addButton, #subtractButton, #multiplyButton, #divideButton{
+    font-size: 22px;
+    padding: 1px 33px;
+}
+#xSqaure, #xRoot{
+    padding: 0px;
+}
+#xSquareButton, #xRootButton{
+    font-size: 15px;
+    padding: 5px 8px;
+}
+#xFactoButton, #moduloButton{
+    font-size: 18px;
+    padding: 3px 30px;
+}
+
+
+
+#buttonSection04{
+    /* border:3px solid rgb(59, 221, 227); */
+    /* border-top: 3px solid red; */
+    border-bottom: 5px solid rgb(0, 191, 255);
+    /* border-radius: 5px; */
+
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#buttonSection04 .allButtons{
+    font-size: 15px;
+    padding: 1px 13px;
+}
+.fourHandleHorizontal04{
+    display: flex;
+    justify-content: space-around;
+}
+#buttonSection04 #exponentialButton{
+    padding: 3px;
+}
+#buttonSection04 #sinButton{
+    padding: 3px;
+}
+#buttonSection04 #cosButton{
+    padding: 3px;
+}
+#buttonSection04 #tanButton{
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#shiftButton, #rollerButton, #onButton{
+    background-color: #bbf6d1;
+    border-radius: 100px;
+    color: green;
+    cursor: pointer;
+    font-size: 16px;
+}
+#shiftButton:hover, #rollerButton:hover, #onButton:hover{
+    box-shadow: #fb9bd6 0 2px 10px 0px;
+}
+
+.numPadButtons{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    cursor: pointer;
+    font-family: Inter,sans-serif;
+    font-size: 1rem; 
+} 
+.threeHandle .numPadButtons:active{
+    box-shadow: #f4ffae 0 0 0 3px, transparent 0 0 0 0;
+}
+
+#zeroButton, #zerozeroButton, #pointButton, #TenxButton{
+    background-color: #067e8c;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#zeroButton:active, #zerozeroButton:active, #pointButton:active, #TenxButton:active{
+    background-color: #374151;
+}
+
+
+#delButton, #acButton, #equalsButton{
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    color: #000000;
+    cursor: pointer;
+}
+#delButton:active, #acButton:active, #equalsButton:active {
+    background-color: #232424;
+    color: rgb(95, 246, 254);
+}
+
+
+#buttonSection03 .allButtons{
+    background-color: #ffb4df;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    color: #41002a;
+    cursor: pointer;
+}
+#buttonSection03 .allButtons:active {
+    background-color: #40033c;
+    color: rgb(252, 252, 252);
+}
+
+#buttonSection04 .allButtons{
+    background-color: #ace2f8;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    color: #00395b;
+    cursor: pointer;
+}
+#buttonSection04 .allButtons:active {
+    background-color: #023b3c;
+    color: rgb(252, 252, 252);
+} 
